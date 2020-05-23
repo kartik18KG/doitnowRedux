@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+
+/* articles-topic container */
+
+.speciality-topic-container:hover {
+    color: black;
+}
+
+.speciality-topic-container {
+    color: black;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.learn-container {
+    min-height: 80vh;
+}
+
+
+/*  */
+
+
+/* down article icon */
+
+.article-dwn {
+    color: #1c3144;
+    transition: all 0.3s linear;
+}
+
+.article-dwn.rotate {
+    color: #6e44ff;
+    transform: rotateZ(180deg);
+}
+
+
+/* read book icon */
+
+.reading-icon {
+    float: right;
+    opacity: 0.9;
+}
+
+.read-icon:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    font-weight: 700;
+}
+
+
+/* article name  */
+
+.read {
+    color: blue;
+}
+
+.read.active {
+    color: tomato;
+}
+
+
+/*  */
+
+.update-delete {
+    display: flex;
+}
+
+.article-read {
+    color: #a663cc;
+}
+
+.article-name {
+    margin-left: 40px;
+    color: black;
+    font-weight: 700;
+}
